@@ -1,49 +1,4 @@
-/* body{
-    background-color: rgb(31, 26, 26);
-    margin: 0px;
-    padding: 0px;
-}
-.header{
-    background-color: rgb(250, 241, 241);
-    padding-left: 25px;
-}
-.slogan{
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-}
-.slogan p{
-    font-size: 2em;
-}
-.grid-box{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    width: 80%;
-    grid-gap: 20px;
-    margin: auto;
-    
-}
-.grid-box img{
-    width: 100%;
-    border-radius: 20px;
-}
 
-.grid-box img:hover{
-    box-shadow: 5px 5px 10px grey;
-}
-.grid-box a{
-    color: yellow;
-    text-decoration: none;
-}
-.grid-box a:hover{
-    color: white;
-    text-decoration: underline;
-    
-    cursor: pointer;
-}
-.grid-box div:nth-child(3){
-    color: white;
-} */
 table{
     width: 80%;
     margin: auto;
@@ -60,7 +15,12 @@ caption{
 table img{
     width: 25px;
     height: 25px;
+
     
+}
+table img:hover{
+    width: 40px ;
+    height:40px;
 }
 
 
@@ -118,10 +78,20 @@ form div{
 }
 span{
     display: flex;
-    justify-content: space-around;
+   
     width: 80%;
     margin: auto;
 }
 
 
-
+.aligncenter{
+    display: flex;
+    align-items: center;
+}
+.button{
+    justify-content: space-around;
+}
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+}
